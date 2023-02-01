@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1025px)
+.navigatsiooni-töölaud[data-v-1af14fd4] {
+    display: block;
+}
+
+.terve_header {
+    background-color: rgb(189, 166, 166);
+    color: #fff;
+    padding: 30px;
+    position: sticky;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1025;
+    height: 80px;
+}
+
+body {
+    color: #171321;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.navigatsiooni-rippmenüü_nupp {
+    display: flex;
+    position: relative;
+    color: #74717a;
+    transition: all .3s ease-in-out;
+    margin: 50px;
+    text-decoration: none;
+    
+    
+
+}
